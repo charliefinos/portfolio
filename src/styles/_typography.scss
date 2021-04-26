@@ -1,0 +1,44 @@
+.home-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 3.6rem;
+  span {
+    color: #037fff;
+  }
+}
+
+.home-sub-text {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  .icon-holder {
+    margin-right: 1rem;
+    .icon {
+      font-size: 3.6rem;
+      color: #a4acc4;
+      transition: all 0.5s ease-in-out;
+    }
+    .ig:hover {
+      color: rgb(177, 87, 27);
+    }
+    .gh:hover {
+      color: black;
+    }
+    .li:hover {
+      color: blue;
+    }
+  }
+}
