@@ -1,6 +1,12 @@
 import './App.scss'
+import { Switch, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import HomePage from './screens/HomePage'
+import AboutPage from './screens/AboutPage'
+import PortfolioPage from './screens/PortfolioPage'
+import ContactPage from './screens/ContactPage'
+import { AnimatePresence } from 'framer-motion'
+
 function App() {
   return (
     <div className="App">
@@ -9,7 +15,14 @@ function App() {
       </div>
       <div className="main-content">
         <div className="content">
-          <HomePage />
+          <AnimatePresence>
+            <Switch>
+              <Route path='/' exact component={HomePage} />
+              <Route path='/about' exact component={AboutPage} />
+              <Route path='/portfolio' exact component={PortfolioPage} />
+              <Route path='/contact' exact component={ContactPage} />
+            </Switch>
+          </AnimatePresence>
         </div>
       </div>
     </div>

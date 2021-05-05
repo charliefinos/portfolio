@@ -7,11 +7,15 @@
 }
 
 .hero-text {
-  color: white;
+  color: #495057;
   text-align: center;
   font-size: 3.6rem;
   span {
-    color: #037fff;
+    color: #007f5f;
+    transition: 0.4s;
+    &:hover {
+      font-size: 4rem;
+    }
   }
 }
 
@@ -29,16 +33,19 @@
     .icon {
       font-size: 3.6rem;
       color: #a4acc4;
-      transition: all 0.5s ease-in-out;
+      transition: all 0.4s ease-in-out;
     }
     .ig:hover {
       color: rgb(177, 87, 27);
+      font-size: 4rem;
     }
     .gh:hover {
       color: black;
+      font-size: 4rem;
     }
     .li:hover {
       color: blue;
+      font-size: 4rem;
     }
   }
 }

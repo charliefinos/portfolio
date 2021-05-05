@@ -1,16 +1,24 @@
 .App {
   .sidebar {
-    width: 16%;
+    width: 20%;
     height: 100vh;
-    background-color: #191d2b;
-    position: fixed;
-    border-right: 1px solid #2e344e;
+    background-color: #0000002a;
+    position: absolute;
+    border-right: 1px solid #dee2e6;
+    transform: translateX(-90%);
+    transition: all 0.4s ease-out;
+    -webkit-transition: 0.4 ease-out;
+    &:hover {
+      transform: translateX(0);
+      transition: 0.4s ease;
+      -webkit-transition: 0.4;
+    }
   }
 
   .main-content {
-    width: 84%;
-    margin-left: 16%;
-    background-color: #10121b;
+    width: 80%;
+    margin-left: 20%;
+    background-color: #dee2e6;
     min-height: 100vh;
     background-image: url("../img/dots.svg");
     display: grid;
