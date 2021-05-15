@@ -1,0 +1,32 @@
+.about-page {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40vw;
+  margin-top: 50vh;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  .about-image {
+    margin-top: 0.5rem;
+    margin-right: 0.7rem;
+    padding: 0.5rem;
+    width: 30%;
+    transition: 0.4s;
+    img {
+      border-radius: 100%;
+      border: 2px solid #007f5f;
+      width: 100%;
+      max-width: 190px;
+      transition: 0.4s;
+      &:hover {
+        width: 190px;
+      }
+    }
+  }
+  .about-text {
+    width: 70%;
+  }
+  h1 {
+    text-align: left;
+    color: #007f5f;
+  }
+}

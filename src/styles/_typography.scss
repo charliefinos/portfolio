@@ -6,36 +6,6 @@
   width: 80%;
 }
 
-.about-page {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  .about-image {
-    margin-top: 0.5rem;
-    padding: 2rem;
-    width: 40%;
-    transition: 0.4s;
-    img {
-      border-radius: 100%;
-      border: 2px solid #007f5f;
-      width: 100%;
-    }
-    &:hover {
-      width: 44%;
-    }
-  }
-  .about-text {
-    width: 60%;
-  }
-  h1 {
-    color: #007f5f;
-  }
-}
-
 .hero-text {
   color: #495057;
   text-align: center;
