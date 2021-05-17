@@ -1,27 +1,27 @@
 import React from 'react'
-import { faGithub, faJs, faNodeJs } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    DiJavascript1,
+    DiMongodb,
+    DiReact,
+    DiNodejs,
+    DiGit,
+    DiVisualstudio
+} from 'react-icons/di'
 
 const Skills = () => {
 
     return (
         <div className="skills">
             <div className="skills-title">
-                <h1>Skills</h1>
+                <h1>What technologies do i use?</h1>
             </div>
             <div className="skills-icons">
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faJs} className="icon-holder" />
-                <FontAwesomeIcon icon={faNodeJs} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
-                <FontAwesomeIcon icon={faGithub} className="icon-holder" />
+                <DiReact className="icon-holder" />
+                <DiNodejs className="icon-holder" />
+                <DiJavascript1 className="icon-holder" />
+                <DiMongodb className="icon-holder" />
+                <DiGit className="icon-holder" />
+                <DiVisualstudio className="icon-holder" />
             </div>
         </div>
     )

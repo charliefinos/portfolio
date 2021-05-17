@@ -19,7 +19,8 @@ const AboutPage = () => {
                     <div className="about-text">
                         <h1 className="hero-text">About Me:</h1>
                         <p className="hero-sub-text">Hi, I am Carlos Finos from Chaco, Argentina.</p>
-                        <p>I am a React Developer who learns and code everyday</p>
+                        <p>I am a developer working with Mern stack building responsive sites and a good user experience.</p>
+                        <p>I am also a photographer and crypto enthusiast.</p>
                     </div>
                 </div>
                 <Skills />

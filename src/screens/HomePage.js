@@ -15,7 +15,7 @@ const HomePage = () => {
                     <span>Carlos E. Finos</span>
                 </h1>
                 <p className="home-sub-text">
-                    React Developer
+                    Software Developer
                 </p>
                 <div className="icons">
 
