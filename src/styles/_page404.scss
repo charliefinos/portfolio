@@ -1,0 +1,23 @@
+.not-found {
+  margin-top: 30vh;
+  margin-left: 10vw;
+
+  button {
+    border: none;
+    background-color: #007f5f;
+    width: 130px;
+    height: 40px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: inherit;
+    transition: 0.4s;
+    margin-top: 1rem;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    &:hover {
+      background-color: #07a07a;
+    }
+  }
+}
