@@ -47,6 +47,9 @@
       }
     }
   }
+  .active {
+    background-color: #007f5f;
+  }
 
   .footer {
     width: 100%;
@@ -58,8 +61,4 @@
       padding: 1rem 0;
     }
   }
-}
-
-.active {
-  background-color: #007f5f;
 }

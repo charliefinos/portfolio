@@ -14,9 +14,12 @@ exports[`matches snapshot 1`] = `
         className="nav-item"
       >
         <a
+          aria-current="page"
+          className="active"
           data-testid="link-1"
           href="/"
           onClick={[Function]}
+          style={Object {}}
         >
           Home
         </a>
@@ -25,6 +28,7 @@ exports[`matches snapshot 1`] = `
         className="nav-item"
       >
         <a
+          aria-current={null}
           href="/about"
           onClick={[Function]}
         >
@@ -35,6 +39,7 @@ exports[`matches snapshot 1`] = `
         className="nav-item"
       >
         <a
+          aria-current={null}
           href="/portfolio"
           onClick={[Function]}
         >
@@ -45,6 +50,7 @@ exports[`matches snapshot 1`] = `
         className="nav-item"
       >
         <a
+          aria-current={null}
           href="/contact"
           onClick={[Function]}
         >

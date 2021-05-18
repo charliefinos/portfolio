@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
     return (
@@ -7,40 +7,39 @@ const NavBar = () => {
             <nav className="nav">
 
                 <ul className="nav-items">
+
                     <li className="nav-item" >
-
-                        <Link to="/" data-testid="link-1">
+                        <NavLink to="/" exact data-testid="link-1">
                             Home
-                        </Link>
-
+                        </NavLink>
                     </li>
-                    <li className="nav-item">
 
-                        <Link to="/about" >
+                    <li className="nav-item">
+                        <NavLink to="/about" >
                             About
-                        </Link>
-
+                        </NavLink>
                     </li>
-                    <li className="nav-item">
 
-                        <Link to="/portfolio" >
+                    <li className="nav-item">
+                        <NavLink to="/portfolio" >
                             Portfolio
-                        </Link>
-
+                        </NavLink>
                     </li>
+
                     <li className="nav-item">
-
-                        <Link to="/contact" >
+                        <NavLink to="/contact" >
                             Contact
-                        </Link>
-
+                        </NavLink>
                     </li>
+
                 </ul>
+
                 <footer className="footer">
                     <p>
                         @2021 Carlos Finos
                     </p>
                 </footer>
+
             </nav>
         </div >
     )
