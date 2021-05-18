@@ -1,31 +1,39 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <div div className="navbar">
+        <div className="navbar">
             <nav className="nav">
 
                 <ul className="nav-items">
-                    <li className="nav-item">
-                        <NavLink to="/" exact activeClassName="active">
+                    <li className="nav-item" >
+
+                        <Link to="/" data-testid="link-1">
                             Home
-                        </NavLink>
+                        </Link>
+
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
+
+                        <Link to="/about" >
                             About
-                        </NavLink>
+                        </Link>
+
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolio" exact activeClassName="active">
+
+                        <Link to="/portfolio" >
                             Portfolio
-                        </NavLink>
+                        </Link>
+
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
+
+                        <Link to="/contact" >
                             Contact
-                        </NavLink>
+                        </Link>
+
                     </li>
                 </ul>
                 <footer className="footer">
@@ -34,7 +42,6 @@ const NavBar = () => {
                     </p>
                 </footer>
             </nav>
-
         </div >
     )
 }

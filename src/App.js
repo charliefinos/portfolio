@@ -18,10 +18,10 @@ function App() {
         <div className="content">
           <AnimatePresence>
             <Switch>
-              <Route path='/' exact component={HomePage} />
-              <Route path='/about' exact component={AboutPage} />
-              <Route path='/portfolio' exact component={PortfolioPage} />
-              <Route path='/contact' exact component={ContactPage} />
+              <Route path='/' exact={true} component={HomePage} />
+              <Route path='/about' component={AboutPage} />
+              <Route path='/portfolio' component={PortfolioPage} />
+              <Route path='/contact' component={ContactPage} />
               <Route component={Page404} />
             </Switch>
           </AnimatePresence>
