@@ -15,7 +15,7 @@ const Skills = () => {
         <div className="skills">
 
             <div className="skills-title">
-                <h1>What technologies do i use?</h1>
+                <h1>Tech Stack</h1>
             </div>
 
             <div className="skills-icons">

@@ -24,7 +24,6 @@ function App() {
               <Route path='/' exact={true} component={HomePage} />
               <Route path='/about' component={AboutPage} />
               <Route path='/portfolio' component={PortfolioPage} />
-              <Route path='/contact' component={ContactPage} />
               <Route component={Page404} />
             </Switch>
           </AnimatePresence>

@@ -23,7 +23,7 @@ const HomePage = () => {
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </a>
 
-                    <a target="_blank" rel="noreferrer" href="https://github.com/charlyfinos" className="icon-holder">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carlosefinos/" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon li" />
                     </a>
 
