@@ -1,7 +1,6 @@
 import React from 'react'
 import Skills from '../components/Skills'
 import { motion } from 'framer-motion'
-import avatar from '../img/avatar.png'
 
 const AboutPage = () => {
     return (
@@ -14,7 +13,7 @@ const AboutPage = () => {
             >
                 <div className="about-page">
                     <div className="about-image">
-                        <img src="https://avatars.githubusercontent.com/u/60705940?s=400&u=6e2047a1bb81cace747d1b9772fe4c459e748165&v=4">
+                        <img alt="gitProfile" src="https://avatars.githubusercontent.com/u/60705940?s=400&u=6e2047a1bb81cace747d1b9772fe4c459e748165&v=4">
                         </img>
                     </div>
                     <div className="about-text">

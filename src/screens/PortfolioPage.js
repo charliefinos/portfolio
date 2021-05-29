@@ -34,7 +34,7 @@ const PortfolioPage = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <img src="http://res.cloudinary.com/dxb7leok1/image/upload/v1622244866/rvwsncwrj0rmx7s7ffsx.png"></img>
+                        <img alt="card" src="http://res.cloudinary.com/dxb7leok1/image/upload/v1622244866/rvwsncwrj0rmx7s7ffsx.png"></img>
                         <h3>E-commerce</h3>
                         <p>This is an ecommerce project from a Udemy course, where I learned how to use <strong>react</strong>, <strong>redux</strong>, <strong>node</strong> and how to organize a full-stack project from start to finish.</p>
                         <div className="card__icons">
