@@ -1,7 +1,7 @@
 import React from 'react'
 import Skills from '../components/Skills'
 import { motion } from 'framer-motion'
-
+import { AiOutlineCloudDownload } from 'react-icons/ai'
 const AboutPage = () => {
     return (
         <div >
@@ -24,6 +24,11 @@ const AboutPage = () => {
                         <p>I am also a photographer and crypto enthusiast.</p>
                     </div>
                 </div>
+                <div className="about-resume">
+                    <p>Dowload Resume</p>
+                    <a className="icon-holder" href='./carlos-finos.pdf' download><AiOutlineCloudDownload className="icon ig" /></a>
+                </div>
+
                 <Skills />
             </motion.div>
         </div>

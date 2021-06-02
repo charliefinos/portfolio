@@ -3,6 +3,7 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { motion } from 'framer-motion'
 
+
 const HomePage = () => {
     return (
         <motion.div
@@ -31,6 +32,7 @@ const HomePage = () => {
                         <FontAwesomeIcon icon={faInstagram} className="icon ig" />
                     </a>
                 </div>
+
             </header>
         </motion.div>
     )
