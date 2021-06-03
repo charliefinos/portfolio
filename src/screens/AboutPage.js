@@ -19,7 +19,7 @@ const AboutPage = () => {
                     <div className="about-text">
                         <h1 className="hero-text">About Me:</h1>
                         <p className="hero-sub-text">Hi, I am <strong>Carlos Finos</strong> from <strong>Chaco, Argentina</strong>.</p>
-                        <p>Enthusiastic software developer eager to contribute to team success through hard work. Clear understanding of <strong>MERN</strong> stack and training in problem solving skills and UX design. Motivated to learn, grow and excel in software development.</p>
+                        <p>Enthusiastic software developer eager to contribute to team success through hard work. Clear understanding of <strong>MERN</strong> stack and training in Smart Contract development and UX design. Motivated to learn, grow and excel in software development.</p>
 
                         <p>I am also a photographer and crypto enthusiast.</p>
                     </div>
