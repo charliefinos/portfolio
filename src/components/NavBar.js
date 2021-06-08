@@ -25,7 +25,6 @@ const NavBar = () => {
                             Portfolio
                         </NavLink>
                     </li>
-
                 </ul>
 
                 <footer className="footer">
