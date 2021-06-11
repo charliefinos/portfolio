@@ -7,14 +7,16 @@ import AboutPage from './screens/AboutPage'
 import PortfolioPage from './screens/PortfolioPage'
 import Page404 from './components/Page404'
 import { AnimatePresence } from 'framer-motion'
-
+import aboutData from './data/data'
 
 function App() {
+  const [data] = useState(aboutData)
   const [toggle, setToggle] = useState(false)
 
   const navHandler = () => {
     setToggle(!toggle)
   }
+
   return (
     <div className="App">
       <div className={`sidebar ${toggle ? 'nav-toggle' : ''}`} >
@@ -30,7 +32,7 @@ function App() {
           <AnimatePresence>
             <Switch>
               <Route path='/' exact={true} component={HomePage} />
-              <Route path='/about' component={AboutPage} />
+              <Route path='/about' component={() => <AboutPage data={data} />} />
               <Route path='/portfolio' component={PortfolioPage} />
               <Route component={Page404} />
             </Switch>
