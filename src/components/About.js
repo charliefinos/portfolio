@@ -1,16 +1,16 @@
 import React from 'react'
 
-const About = ({ data }) => {
+const About = ({ about }) => {
     return (
         <div className="about-page">
             <div className="about-image">
-                <img alt="gitProfile" src={data.photo}>
+                <img alt="gitProfile" src={about.photo}>
                 </img>
             </div>
             <div className="about-text">
                 <h1 className="hero-text">About Me:</h1>
-                <p className="hero-sub-text">Hi, I am <strong>{data.name}</strong> from <strong>{data.country}, {data.province}</strong>.</p>
-                <p>{data.summary}</p>
+                <p className="hero-sub-text">Hi, I am <strong>{about.name}</strong> from <strong>{about.country}, {about.province}</strong>.</p>
+                <p>{about.summary}</p>
             </div>
         </div>
     )

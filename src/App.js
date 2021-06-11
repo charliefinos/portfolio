@@ -31,8 +31,8 @@ function App() {
         <div className="content">
           <AnimatePresence>
             <Switch>
-              <Route path='/' exact={true} component={HomePage} />
-              <Route path='/about' component={() => <AboutPage data={data} />} />
+              <Route path='/' exact={true} component={() => <HomePage home={data.home} />} />
+              <Route path='/about' component={() => <AboutPage about={data.about} />} />
               <Route path='/portfolio' component={PortfolioPage} />
               <Route component={Page404} />
             </Switch>

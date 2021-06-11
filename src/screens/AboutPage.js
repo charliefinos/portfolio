@@ -4,7 +4,7 @@ import About from '../components/About'
 import { motion } from 'framer-motion'
 import { AiOutlineCloudDownload } from 'react-icons/ai'
 
-const AboutPage = ({ data }) => {
+const AboutPage = ({ about }) => {
     return (
         <div >
             <motion.div
@@ -13,7 +13,7 @@ const AboutPage = ({ data }) => {
                 exit={{ opacity: 0 }}
                 className="about"
             >
-                <About data={data} />
+                <About about={about} />
                 <Skills />
             </motion.div>
         </div>
