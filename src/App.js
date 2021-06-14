@@ -33,7 +33,7 @@ function App() {
             <Switch>
               <Route path='/' exact={true} component={() => <HomePage home={data.home} />} />
               <Route path='/about' component={() => <AboutPage about={data.about} />} />
-              <Route path='/portfolio' component={PortfolioPage} />
+              <Route path='/portfolio' component={() => <PortfolioPage portfolio={data.portfolio} />} />
               <Route component={Page404} />
             </Switch>
           </AnimatePresence>
