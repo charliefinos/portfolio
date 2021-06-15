@@ -8,6 +8,7 @@ import PortfolioPage from './screens/PortfolioPage'
 import Page404 from './components/Page404'
 import { AnimatePresence } from 'framer-motion'
 import aboutData from './data/data'
+import NavButton from './components/NavButton'
 
 function App() {
   const [data] = useState(aboutData)
@@ -17,17 +18,14 @@ function App() {
     setToggle(!toggle)
   }
 
+  const closeHandler = () => {
+    setToggle(false)
+  }
   return (
     <div className="App">
-      <div className={`sidebar ${toggle ? 'nav-toggle' : ''}`} >
-        <NavBar />
-      </div>
-      <div className="nav-btn" onClick={navHandler}>
-        <div className="line-1"></div>
-        <div className="line-2"></div>
-        <div className="line-3"></div>
-      </div>
-      <div className="main-content">
+      <NavBar toggle={toggle} />
+      <NavButton navHandler={navHandler} />
+      <div onClick={closeHandler} className="main-content">
         <div className="content">
           <AnimatePresence>
             <Switch>
