@@ -2,7 +2,7 @@ export const data = {
 
     home: {
         name: "Carlos E. Finos",
-        role: "React Developer",
+        role: "MERN Developer",
         github: {
             name: "Github",
             link: "https://github.com/charlyfinos"
