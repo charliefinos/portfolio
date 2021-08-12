@@ -14,10 +14,7 @@ const AboutPage = ({ about }) => {
                 className="about"
             >
                 <About about={about} />
-                <div className="about-resume">
-                    <p>Dowload Resume</p>
-                    <a className="icon-holder" href='./carlos-finos.pdf' download><AiOutlineCloudDownload className="icon ig" /></a>
-                </div>
+
                 <Skills />
             </motion.div>
         </div>
@@ -25,3 +22,8 @@ const AboutPage = ({ about }) => {
 }
 
 export default AboutPage
+
+// <div className="about-resume">
+                //     <p>Dowload Resume</p>
+                //     <a className="icon-holder" href='./carlos-finos.pdf' download><AiOutlineCloudDownload className="icon ig" /></a>
+                // </div>
